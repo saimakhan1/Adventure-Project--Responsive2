@@ -1,0 +1,788 @@
+
+
+
+/*all mobile devices (phones, 0=> 667px and less than it)*/
+@media only screen and (max-width:667px){
+
+	header{
+	
+	padding: 10px 15px;
+
+	}
+	.header-top{
+		display: block;
+		text-align: center;
+	}
+	.header-top .logo{
+		font-size: 20px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.header-top ul{
+		display: flex;
+		justify-content: center;
+	}
+
+	.header-top ul li{
+		list-style: none;
+
+	}
+
+	.header-top ul li a{
+		text-decoration: none;
+		padding: 8px 10px;
+		color: #fff;
+		font-size: 15px;
+		text-decoration: bold;
+		display: inline-block;
+
+	}
+	.header-bottom{
+		text-align: center;
+		padding: 50px 0;
+	}
+	.header-bottom .explore1{
+		font-size: 25px;
+		font-style: italic;
+	}
+	.header-bottom span{
+		height: 5px;
+		width: 180px;
+		border-radius: 5px;
+		background-color: red;
+		display: inline-block;
+		margin: 30px 0;
+	}
+	.header-bottom h1{
+		padding: 50px 0 90px 0;
+		font-size: 30px; /*changed */
+	}
+	.header-bottom button{
+		padding: 13px 23px;
+		border-radius: 50px;
+		background-color: red;
+		color: white;
+		font-size: 14px;
+		margin-bottom: 40px;
+	}
+
+	/******upcoming events*****/
+
+	.events-gallery{
+		display: block;
+		
+		padding: 40px 80px;
+	}
+
+	.event-image{
+		text-align: center;
+	}
+	.events-gallery img{
+		width: 410px;
+		height: 230px;
+		border-radius: 10px;
+
+	}
+	.gallery1,.gallery2{
+
+	}
+
+	.gallery1 .event-image{
+		padding: 30px 5px;
+	}
+	.gallery2 .event-image{
+		padding: 30px 5px;
+	}
+	.gallery1 .event-description, .gallery2 .event-description{
+		text-align: center;
+	}
+	.gallery1 .event-description a, .gallery2 .event-description a{
+		text-decoration: none;
+		color: red;
+		font-size: 20px;
+		letter-spacing: 3px;
+		padding-bottom: 35px;
+		display: inline-block;
+
+	}
+
+	.gallery1 h2, .gallery2 h2{
+		padding-top: 13px;
+		padding-bottom: 20px;
+		text-transform: uppercase;
+	}
+
+	.gallery1 p, .gallery2 p{
+		padding-bottom: 10px;
+		font-size: 16px;
+	}
+	/***********************Explore Section ******/
+	.explore{
+		display: block;
+		text-align: center;
+	}
+
+	.explore-box1{
+		width: 100%;
+		/*padding: 90px 20px 50px 90px;*/
+		padding-top: 50px;
+		padding-bottom: 35px;
+	}
+	.explore-box1 h1{
+		font-size: 30px;
+		letter-spacing: 5px;
+	}
+	.explore-box1 span{
+		height: 6px;
+		width: 210px;
+		border-radius: 5px;
+		background-color: red;
+		display: inline-block;
+		margin: 20px 0;
+	}
+
+	.explore-box1 p{
+		color: #fff;
+		font-size: 18px;
+		text-align: justify;
+	}
+
+	/*******tours section*********/
+	.tours{
+		display: block;
+	}
+	.tours1 p{
+		text-align: justify;
+	}
+	.tours1,.tours2, .tours3{
+		width: 100%;
+		text-align: center;
+	}
+	.tours1{
+		
+	}
+	.tours1 h1{
+		font-size: 22px;
+	}
+	.tours1 a{
+		font-size: 20px;
+	}
+	.tours img{
+		padding: 20px;
+		height: 280px;
+
+	}
+
+}
+
+
+
+/***tab
+ * keep it as it is in the small mobile but change increase the font size where necessary and decrese the space around*/
+@media only screen and (min-width:667px) and (max-width:768px) {
+
+		header{
+			padding: 20px 15px;
+		}
+	.header-top{
+		display: block;
+		text-align: center;
+	}
+	.header-top .logo{
+		font-size: 27px;
+		text-align: center;
+		margin-bottom: 16px;
+	}
+	.header-top ul{
+		display: flex;
+		justify-content: center;
+	}
+
+	.header-top ul li{
+		list-style: none;
+
+	}
+
+	.header-top ul li a{
+		text-decoration: none;
+		padding: 13px 15px;
+		color: #fff;
+		font-size: 23px;
+		text-decoration: bold;
+		display: inline-block;
+	}
+	.header-bottom{
+		text-align: center;
+		padding: 60px 0;
+	}
+	.header-bottom .explore1{
+		font-size: 33px;
+		font-style: italic;
+	}
+	.header-bottom span{
+		height: 8px;
+		width: 190px;
+		border-radius: 5px;
+		background-color: red;
+		display: inline-block;
+		margin: 30px 0;
+	}
+	.header-bottom h1{
+		padding: 50px 0 80px 0;
+		font-size: 38px; /*changed */
+	}
+	.header-bottom button{
+		padding: 13px 23px;
+		border-radius: 50px;
+		background-color: red;
+		color: white;
+		font-size: 19px;
+		margin-bottom: 40px;
+	}
+
+		/******upcoming events*****/
+
+	.events-gallery{
+		display: block;
+		
+		padding: 40px 100px;
+	}
+
+	.event-image{
+		text-align: center;
+	}
+	.events-gallery img{
+		width: 550px;
+		height: 300px;
+		border-radius: 10px;
+
+	}
+	.gallery1 .event-image{
+		padding: 30px;
+	}
+	.gallery2 .event-image{
+		padding: 30px;
+	}
+	.gallery1 .event-description, .gallery2 .event-description{
+		text-align: center;
+	}
+	.gallery1 .event-description a, .gallery2 .event-description a{
+		text-decoration: none;
+		color: red;
+		font-size: 20px;
+		letter-spacing: 3px;
+		padding-bottom: 35px;
+
+		display: inline-block;
+	}
+
+	.gallery1 h2, .gallery2 h2{
+		padding-top: 13px;
+		padding-bottom: 20px;
+		text-transform: uppercase;
+	}
+
+	.gallery1 p, .gallery2 p{
+		padding-bottom: 10px;
+		font-size: 20px;
+	}
+
+	/***********************Explore Section ******/
+	.explore{
+		display: block;
+		text-align: center;
+	}
+
+	.explore-box1{
+		width: 100%;
+		/*padding: 90px 20px 50px 90px;*/
+		padding-top: 50px;
+		padding-bottom: 35px;
+	}
+	.explore-box1 h1{
+		font-size: 37px;
+		letter-spacing: 5px;
+	}
+	.explore-box1 span{
+		height: 6px;
+		width: 210px;
+		border-radius: 5px;
+		background-color: red;
+		display: inline-block;
+		margin: 20px 0;
+	}
+
+	.explore-box1 p{
+		color: #fff;
+		font-size: 18px;
+		text-align: justify;
+	}
+
+	/*******tours section*********/
+	.tours{
+		display: block;
+	}
+	.tours1 p{
+		text-align: justify;
+	}
+	.tours1,.tours2, .tours3{
+		width: 100%;
+		text-align: center;
+	}
+	.tours1{
+		text-align: center;
+	}
+	.tours1 a{
+		font-size: 20px;
+
+	}
+	.tours img{
+		padding: 20px;
+		height: 330px;
+
+	}
+}
+
+
+
+/**tab landscape, large tab, small laptop
+ * keep it as mobile, but make some changes. keep the logo and menu side by side**/
+@media only screen and (min-width:768px) and (max-width:991px) {
+
+	header{
+		padding: 30px 60px;
+	}
+	.header-top{
+		display: flex;
+		justify-content: space-between;
+	}
+	.header-top .logo{
+		font-size: 30px;
+	}
+	.header-top ul{
+		display: flex;
+	}
+
+	.header-top ul li{
+		list-style: none;
+
+	}
+
+	.header-top ul li a{
+		text-decoration: none;
+		padding: 22px 19px;
+		color: #fff;
+		font-size: 25px;
+		text-decoration: bold;
+		display: inline-block;
+	}
+	.header-bottom{
+		text-align: center;
+		padding: 130px 0;
+	}
+	.header-bottom .explore1{
+		font-size: 38px;
+		font-style: italic;
+	}
+	.header-bottom span{
+		height: 8px;
+		width: 270px;
+		border-radius: 5px;
+		background-color: red;
+		display: inline-block;
+		margin: 30px 0;
+	}
+	.header-bottom h1{
+		padding: 70px 0 140px 0;
+		font-size: 48px;
+	}
+	.header-bottom button{
+		padding: 18px 30px;
+		border-radius: 50px;
+		background-color: red;
+		color: white;
+		font-size: 20px;
+	}
+
+	/**********Upcoming Events*******************/
+
+	
+	.events-gallery{
+		display: block;
+		
+		padding: 40px 80px;
+	}
+
+	.event-image{
+		text-align: center;
+	}
+	.events-gallery img{
+		width: 470px;
+		height: 280px;
+		border-radius: 10px;
+
+	}
+	.gallery1,.gallery2{
+
+	}
+
+	.gallery1 .event-image{
+		padding: 30px 5px;
+	}
+	.gallery2 .event-image{
+		padding: 30px 5px;
+	}
+	.gallery1 .event-description, .gallery2 .event-description{
+		text-align: center;
+	}
+	.gallery1 .event-description a, .gallery2 .event-description a{
+		text-decoration: none;
+		color: red;
+		font-size: 20px;
+		letter-spacing: 3px;
+		padding-bottom: 35px;
+		display: inline-block;
+
+	}
+
+	.gallery1 h2, .gallery2 h2{
+		padding-top: 13px;
+		padding-bottom: 20px;
+		text-transform: uppercase;
+	}
+
+	.gallery1 p, .gallery2 p{
+		padding-bottom: 10px;
+		font-size: 16px;
+	}
+	/***********************Explore Section ******/
+	.explore{
+		display: block;
+		text-align: center;
+	}
+
+	.explore-box1{
+		width: 100%;
+		/*padding: 90px 20px 50px 90px;*/
+		padding-top: 50px;
+		padding-bottom: 35px;
+	}
+	.explore-box1 h1{
+		font-size: 40px;
+		letter-spacing: 5px;
+	}
+	.explore-box1 span{
+		height: 6px;
+		width: 210px;
+		border-radius: 5px;
+		background-color: red;
+		display: inline-block;
+		margin: 20px 0;
+	}
+
+	.explore-box1 p{
+		color: #fff;
+		font-size: 18px;
+		text-align: justify;
+	}
+
+	/******explore **********/
+	.explore{
+		display: flex;
+	}
+	.explore-box1{
+		width: 70%;
+	}
+	.explore-box1 h1{
+		font-size: 50px;
+	}
+
+	/*******tours section*********/
+	.tours{
+		display: flex;
+		 flex-wrap: wrap; /* Allows items to wrap onto the next line */
+	}
+	.tours1 p{
+		text-align: justify;
+	}
+	.tours1{
+		width: 100%;
+		
+	}
+	.tours2, .tours3{
+		width: 45%;
+		margin: 10px;
+	}
+	.tours1{
+		text-align: center;
+	}
+	.tours1 a{
+		font-size: 20px;
+
+	}
+	.tours img{
+		padding: 20px;
+
+		height: 330px;
+
+	}
+
+}
+
+/*small laptop, 17" monitor, */
+@media only screen and (min-width:991px) and (max-width:1024px) {
+
+
+
+	.header-top ul li{
+		list-style: none;
+
+	}
+
+	.header-top ul li a{
+		font-size: 25px;
+		padding: 20px 20px;
+		display: inline-block;
+	}
+
+	.header-bottom h1{
+		padding: 50px 0 120px 0;
+		font-size: 45px;
+	}
+
+	/**********Upcoming Events*******************/
+
+	.events-gallery{
+		display: flex;
+		justify-content: space-around;
+		padding: 50px 110px;
+	}
+
+	.gallery1, .gallery2{
+		
+		
+	}
+	.event-image{
+		text-align: center;
+	}
+	.events-gallery img{
+		width: 550px;
+		height: 300px;
+		border-radius: 10px;
+
+	}
+	.gallery1 .event-image{
+		padding-right: 30px;
+	}
+	.gallery2 .event-image{
+		padding-left: 30px;
+	}
+	.gallery1 .event-description, .gallery2 .event-description{
+		text-align: center;
+	}
+	.gallery1 .event-description a, .gallery2 .event-description a{
+		text-decoration: none;
+		color: red;
+		font-size: 20px;
+		letter-spacing: 3px;
+	}
+
+	.gallery1 h2, .gallery2 h2{
+		padding-top: 13px;
+		padding-bottom: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+		text-transform: uppercase;
+	}
+
+	.gallery1 p, .gallery2 p{
+		padding-bottom: 20px;
+		font-size: 20px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+
+	/******Explore section*******/
+
+	.explore{
+		display: flex;
+	}
+	.explore-box1{
+		width: 60%;
+	}
+	.explore-box1 h1{
+		font-size: 50px;
+	}
+
+	/*******tours section*********/
+	.tours{
+		display: flex;
+		 flex-wrap: wrap; /* Allows items to wrap onto the next line */
+	}
+	.tours1 p{
+		text-align: justify;
+	}
+	.tours1{
+		width: 100%;
+		
+	}
+	.tours2, .tours3{
+		width: 45%;
+		margin: 10px;
+	}
+	.tours1{
+		text-align: center;
+	}
+	.tours1 a{
+		font-size: 20px;
+
+	}
+	.tours img{
+		padding: 20px;
+
+		height: 330px;
+
+	}
+}
+/**laptop, monitor, **/
+@media only screen and (min-width:1024px) and (max-width:1440px) {
+
+	.header-top ul li{
+		list-style: none;
+
+	}
+
+	.header-bottom .explore1{
+		font-size: 38px;
+		font-style: italic;
+	}
+
+	.header-top ul li a{
+		font-size: 25px;
+		padding: 20px 20px;
+		display: inline-block;
+	}
+
+	.header-bottom span{
+		height: 8px;
+		width: 260px;
+		border-radius: 5px;
+		background-color: red;
+		display: inline-block;
+		margin: 30px 0;
+	}
+
+	.header-bottom h1{
+		padding: 50px 0 120px 0;
+		font-size: 55px;
+	}
+
+
+	/**********Upcoming Events*******************/
+
+	.events-gallery{
+		display: flex;
+		justify-content: space-around;
+		padding: 50px 100px;
+	}
+
+	.gallery1, .gallery2{
+		
+		
+	}
+	.event-image{
+		text-align: center;
+	}
+	.events-gallery img{
+		width: 550px;
+		height: 300px;
+		border-radius: 10px;
+
+	}
+	.gallery1 .event-image{
+		padding-right: 30px;
+	}
+	.gallery2 .event-image{
+		padding-left: 30px;
+	}
+	.gallery1 .event-description, .gallery2 .event-description{
+		text-align: center;
+	}
+	.gallery1 .event-description a, .gallery2 .event-description a{
+		text-decoration: none;
+		color: red;
+		font-size: 20px;
+		letter-spacing: 3px;
+	}
+
+	.gallery1 h2, .gallery2 h2{
+		padding-top: 13px;
+		padding-bottom: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+		text-transform: uppercase;
+	}
+
+	.gallery1 p, .gallery2 p{
+		padding-bottom: 20px;
+		font-size: 20px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+
+	/******Explore section*******/
+
+	.explore{
+		display: flex;
+	}
+	.explore-box1{
+		width: 60%;
+	}
+	.explore-box1 h1{
+		font-size: 40px;
+	}
+
+}
+
+/**laptop, monitor, **/
+@media only screen and (min-width:1440px) and (max-width:1600px) {
+
+	.header-top ul li{
+		list-style: none;
+
+	}
+
+	.header-bottom .explore1{
+		font-size: 38px;
+		font-style: italic;
+	}
+
+	.header-top ul li a{
+		font-size: 25px;
+		padding: 20px 20px;
+		display: inline-block;
+	}
+
+	.header-bottom span{
+		height: 8px;
+		width: 260px;
+		border-radius: 5px;
+		background-color: red;
+		display: inline-block;
+		margin: 30px 0;
+	}
+
+	.header-bottom h1{
+		padding: 50px 0 120px 0;
+		font-size: 55px;
+	}
+
+	/******Explore section*******/
+
+	.explore-box1 h1{
+		font-size: 60px;
+	}
+}
+
